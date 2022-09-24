@@ -1,0 +1,85 @@
+
+:root{
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+}
+body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background:hsl(27, 66%, 92%);
+}
+.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.first{
+    display:flex;
+    background:hsl(10, 79%, 65%);
+    margin:10px;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    color:hsl(33, 100%, 98%);
+}
+.logo{
+    height:35px;
+    margin-top:20px;
+}
+.first1{
+    font-size: 14px;
+    margin-bottom:-20px;
+}
+.first0{
+    font-size: 23px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+.second{
+    margin:10px; 
+    padding:10px;
+    background: hsl(33, 100%, 98%);
+    border-radius: 10px;
+
+}
+.second0{
+    font-weight:bold;
+    font-size: 25px;
+    margin-left:30px;
+    
+}
+.second1{
+    display:flex;
+    justify-content: space-between;
+    margin-top:30px;
+}
+.left2{
+    font-size: 30px;
+    font-weight:bold;
+}
+.left1{
+    font-size: 13px;
+    margin-bottom: -27px;
+}
+.right{
+    margin-top:23px;
+
+}
+.right1{
+    font-size: 15px;
+    margin-bottom: -15px;
+    font-weight:bold;
+    margin-left: 40px;
+ ;
+}
+.right2{
+    font-size: 13px;
+ 
+}
